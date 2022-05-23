@@ -1,0 +1,237 @@
+{
+  "intents": [
+
+    {
+      "tag": "initiate",
+      "patterns": [ "Start initiation" ],
+      "responses": [ "Initiation done" ],
+      "context": [ "" ]
+    },
+
+
+    {
+      "tag": "greeting",
+      "patterns": [ "Hi there", "Hey", "Hello" ],
+      "responses": [ "Hello", "Good to see you again", "Hi there, how can I help?" ],
+      "context": [ "" ]
+    },
+    
+    {
+      "tag": "feeling", 
+      "patterns": [ "How are you", "What is up?", "How do you do?", "How is it going?", "How are you doing?"],
+      "responses": [ "I am incapable of feeling", "I am good, thanks for asking!" ],
+      "context": [ "" ]
+    },
+    
+     {
+      "tag": "creator",
+      "patterns": [ "Who made you?", "creator", "created"],
+      "responses": [ "The best software engineers: Judy and Reeeem"],
+      "context": [ "" ]
+    },
+    
+     {
+      "tag": "jokes",
+      "patterns": [ "joke", "laugh", "tell me another"],
+      "responses": [ "Why don't koala bears hang out with other koala bears? Because they do not meet the koala-fications", "Never trust an atom, they make up everything",
+                      "What do you call a fake noodle? an impasta ", "How do you drown a hipster? throw him in the mainstream ",
+                      "Why don't calculus majors throw house parties? because you should never drink and derive "],
+      "context": [ "" ]
+    },
+    
+    {
+      "tag": "goodbye",
+      "patterns": [ "Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time" ],
+      "responses": [ "See you!", "Have a nice day", "Bye! Come back again soon." ],
+      "context": [ "" ]
+    },
+    
+    {
+      "tag": "thanks",
+      "patterns": [ "Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me" ],
+      "responses": [ "Any time!", "My pleasure" ],
+      "context": [ "" ]
+    },
+
+
+    {
+      "tag": "age",
+      "patterns": [ "How old are you?", "age" ],
+      "responses": [ "Age is just a number!" ],
+      "context": [ "" ]
+    },
+    
+
+    {
+      "tag": "actions",
+      "patterns": [ "What can you do?", "purpose" ],
+      "responses": [ "Well, I am a creation, just like you are", "I want to be your friend" ],
+      "context": [ "" ]
+    },
+    
+    {
+      "tag": "define_Name",
+      "patterns": [ "What does cama stand for?", "definition of cama" ],
+      "responses": [ "CAMA stands for: Conversational Agent Medical Assistant"],
+      "context": [ "" ]
+    },
+
+     {
+      "tag": "name",
+      "patterns": [ "name", "Who are you?" ],
+      "responses": [ "My name is Cama", "Cama is my name" ],
+      "context": [ "" ]
+    },
+    
+
+    
+    
+     {
+      "tag": "allergy",
+      "patterns": [ "continuous sneezing", "shivering, chills", "watery eyes", "runny nose", "chest tightness"],
+      "responses": [ "You have an allergy to something. Check with your doctor to identify the source of the allergy." ],
+      "context": [ "" ]
+    },    
+    
+    
+     {
+      "tag": "acid_Reflux",
+      "patterns": [ "stomach pain", "acidity", "nausea", "cough", "chest pain", "heartburn", "burping", "sore throat", "bad breath" ],
+      "responses": [ "It seems you have an Acid Reflux. Please seek medical attention from your doctor! "],
+      "context": [ "" ]
+    },     
+    
+     {
+      "tag": "asthma",
+      "patterns": [ "breathless", "fast heartbeat", "dizzy", "cough, coughing", "blue lips or fingers", "faint, fainting"],
+      "responses": [ "It appears you have asthma, consult your doctor immediately."],
+      "context": [ "" ]
+    },     
+    
+    
+    {
+      "tag": "diabetes",
+      "patterns": [ "fatigue", "weight loss", "dry skin", "thirsty", "irregular sugar level", "blurred and distorted vision", "obesity", "excessive hunger", "urinating often" ],
+      "responses": [ "You have diabetes. Please contact your doctor for medical assistance" ],
+      "context": [ "" ]
+    },    
+    
+    
+      {
+      "tag": "food_Poisoning",
+      "patterns": [ "vomiting", "fever", "dehydration", "diarrhoea", "nausea", "stomach pain", "cramps" ],
+      "responses": [ "It appears you have food poisioning. If you are able, go to the emergency room of your nearest hospital. If you are unable, call 9 1 1." ],
+      "context": [ "" ]
+    },   
+    
+        
+    {
+      "tag": "hypertension",
+      "patterns": [ "back headache", "dizziness", "buzzing in ears", "nose bleeds", "irregular heart rhythms", "fatigue", "nausea", "confusion", "anxiety" ],
+      "responses": [ "You seem to suffer from hypertension. This is more commonly known as high blood pressure." ],
+      "context": [ "" ]
+    },   
+    
+    {
+      "tag": "migraine",
+      "patterns": [ "fatigue", "lack of appetite", "mood changes or swings", "excessive hunger", "headache", "sensitive to light and sound and smells", "feeling of headache before it happens" ],
+      "responses": [ "You have a migraine. Lie down and rest and if it persists contact your doctor." ],
+      "context": [ "" ]
+    },   
+    
+    {
+      "tag": "chicken_Pox",
+      "patterns": [ "itching", "skin rash", "fatigue", "fever", "headache", "loss of appetite", "red spots over body" ],
+      "responses": [ "Those are the symptoms of Chicken Pox. Please do not scratch!" ],
+      "context": [ "" ]
+    },   
+    
+    {
+      "tag": "tuberculosis",
+      "patterns": [ "chills", "fatigue", "weight loss", "fever", "breathlessness", "sweating", "loss of appetite", "chest pain", "coughing blood", "night sweats" ],
+      "responses": [ "You have Tuberculosis. Contact the Hospital Immediately and do not come into contact with anyone unless the doctors say you can." ],
+      "context": [ "" ]
+    },   
+    
+    {
+      "tag": "common_Cold",
+      "patterns": [ "sneezing", "chills", "fatigue", "cough", "fever", "headache", "congestion", "sore throat", "runny nose", "chest pain", "muscle pain", "aches" ],
+      "responses": [ "You have the flu. Take some Vitamin C and have a lot of rest. Also, you should contact your doctor." ],
+      "context": [ "" ]
+    },   
+       
+    
+     {
+      "tag": "pneumonia",
+      "patterns": [ "chills", "fatigue", "cough", "fever", "breathlessness", "sweating", "chest pain", "nausea", "vomiting", "diarrhoea" ],
+      "responses": [ "Based on your symptoms, you appear to have Pneumonia. Contact your doctor at your earliest convenience" ],
+      "context": [ "" ]
+    },      
+    
+    {
+      "tag": "heart_Attack",
+      "patterns": [ "breathlessness", "cold sweat", "chest pain or discomfort", "feeling weak", "light headed", "fainting", "pain in left chest arm or jaw" ],
+      "responses": [ "Those are the symptoms of a heart attack. Call 9 1 1 immediately." ],
+      "context": [ "" ]
+    }, 
+    
+    {
+      "tag": "hypothyroidism",
+      "patterns": [ "constipation", "fatigue", "weight gain", "puffy face", "hair loss", "depression", "abnormal menstruation", "high cholesterol", "joint pain", "muscle weakness or aches", "slow heart rate" ],
+      "responses": [ "It appears you have Hypothyroidism. Contact your doctor for further information" ],
+      "context": [ "" ]
+    }, 
+    
+    {
+      "tag": "arthritis",
+      "patterns": [ "muscle weakness", "stiff neck", "swelling joints", "stiff movement", "painful walking", "joint pain" ],
+      "responses": [ "Based on your symptoms, you have arthritis. Contact your doctor and try not to get hurt!" ],
+      "context": [ "" ]
+    }, 
+    
+    {
+      "tag": "UTI",
+      "patterns": [ "burning pee or urination", "bladder discomfort", "foul smell of urine", "continuous feel of or frequent urine", "bloody urine", "pressure or cramping in the groin or lower abdomen" ],
+      "responses": [ "Those are symptoms of a Urinary Tract Infection, or UTI for short."],
+      "context": [ "" ]
+    }, 
+    
+    {
+      "tag": "epilepsy",
+      "patterns": [ "temporary confusion", "a staring spell", "stiff muscles", "uncontrolable jerking movements of the arms and legs", "loss of consciousness", "fear", "anxiety" ],
+      "responses": [ "Those are symptoms of Epilepsy. PLease contact your doctor" ],
+      "context": [ "" ]
+    }, 
+    
+    {
+      "tag": "stroke",
+      "patterns": [ "sudden numbnesss especially on one side of body", "confusion", "trouble speaking", "difficulty to understand speech", "trouble seeing", "trouble walking", "dizziness", "loss of balance", "severe headache", "extreme weakness" ],
+      "responses": [ "Thopse are symptoms of a Storke. Go to the emergency room. If you can't call 9 1 1 immediately." ],
+      "context": [ "" ]
+    }, 
+    
+    
+    {
+      "tag": "parkinson",
+      "patterns": [ "tremor", "shaking", "slow movement", "rigid or stiff muscles", "speech changes", "writing changes", "loss of automatic movements" ],
+      "responses": [ "Based on the symptoms, you suffer from Parkinson Disease. Contact a doctor who specializes in Parkinson's." ],
+      "context": [ "" ]
+    }, 
+    
+    {
+      "tag": "iron_Deficiency",
+      "patterns": [ "fatigue", "weakness", "pale skin", "cold hands and feet", "brittle nails", "unusual cravings", "poor appetite", "chest pain", "dizziness", "light headed", "shortness of breath", "breathlessness" ],
+      "responses": [ "You have Iron Deficiency. Seek proper medical treatment by contacting your doctor." ],
+      "context": [ "" ]
+    }, 
+    
+    {
+      "tag": "vitamin_D_Deficiency",
+      "patterns": [ "fatigue", "sleepy", "tooth decay", "hair loss", "muscle pain", "headache", "low energy" ],
+      "responses": [ "Those are symptoms of Vitamin D Deficiency. Contact a speacilist. Get well soon!" ],
+      "context": [ "" ]
+    } 
+    
+  
+  ]
+}
